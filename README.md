@@ -29,3 +29,8 @@ The primary goal of FreeStyle Gym is to be an easy to use website which existing
 
 The website is going to be desinged for people who are currently members of the gym and who a looking to become new members of the gym, it is also going to be designed to show off what additional support the gym would have. It's going to be designed so it is easy to use on the move without any confusion.
 
+## Colour Scheme
+* We are going to be going for 3 major colours which are Black, White and Orange.
+
+## Font Style
+* We are going to be using
