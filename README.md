@@ -1,4 +1,4 @@
-# Welcome to my MSP1!
+# Welcome to my MSP1 FreeStyle Gym!
 
 ## UX Project Goals
 
