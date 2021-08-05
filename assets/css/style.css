@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Oswald:wght@300&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+/* ------------------- Background Colors */
+
+.bg-heading {
+    background-color: #272525;
+}
+
+.bg-navbar-color {
+    background-color: #272525;
+    width: 100% auto;
+}
+
+
+/* ------------------- Heading */
+
+.mainheading {
+    color: #fafafa;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+}
+
+.mainheading h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+/* ------------------- Navbar */
+
+.nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+    font-size: 20px;
+}
+
+.menuitem {
+    height: 30px;
+    text-align: center;
+    padding-right: 5px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+/* ------------------- Callout */
+
+.callout {
+    background-image: url(../images/gym.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+.callout-content {
+    display: relative;
+    text-align: center;
+    height: 50%;
+    padding-top: 30%;
+    color: #fafafa;
+}
+
+@media (min-width:991px){
+.callout-content {
+    display: relative;
+    text-align: center;
+    height: 50%;
+    padding-top: 15%;
+    color: #fafafa;
+}
+}
+
+.callout-content p {
+    font-size: 22px;
+}
+
+.box-background {
+    background-color: rgba(0,0,0,0.5);
+    width: 55%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
