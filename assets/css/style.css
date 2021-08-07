@@ -10,6 +10,7 @@ html,body
 
 body {
     font-family: "Karla", sans-serif;
+    font-size: 16px;
 }
 
 /* ------------------- Background Colors */
@@ -108,41 +109,28 @@ body {
 
 .aboutus {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 40px;
     color: #272525;
+    text-decoration: underline;
 }
 
 .about-content {
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 70px;
+    margin-top: 25px;
 }
 
-.about-content h2 {
-    margin-left: 40px;
-    font-family: "Oswald", sans-serif;
-}
-
-@media (min-width:991px){
-.about-content h2 {
-    margin-left: 33%;  
-}
+.about-content h1 {
+    margin-left: 20%;
 }
 
 .about-content p {
-    margin-top: 20px;
-    width: 75%;
-    margin-left: 20px;
+    margin-top: 10px;
+    font-size: ;
 }
 
-@media (min-width:991px){
-.about-content p{
-    width: 350px;
-    margin-top: 40px;
-    margin-left: 28%;
-    font-size: 16px;
-}
+.about-image {
+    padding-left: 10%;
+    margin-top: 20px;
 }
