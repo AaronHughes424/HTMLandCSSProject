@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="row">
-            <div class="col-12 col-sm-12 bg-heading mainheading">
+            <div class="col-12 col-sm-12 bg-heading mainheading" id="home">
                 <h1>
                     FreeStyle Gym
                 </h1>
@@ -20,10 +20,10 @@
         </div>
         <nav class="navbar nav bg-navbar-color">
             <div class="col-4 col-sm-4 container-fluid menuitem">
-              <a class="navbar-brand" href="#">Home</a>
+              <a class="navbar-brand" href="#home">Home</a>
             </div>
             <div class="col-4 col-sm-4 container-fluid menuitem">
-                <a class="navbar-brand" href="#">Classes</a>
+                <a class="navbar-brand" href="#classes">Classes</a>
             </div>
             <div class="col-4 col-sm-4 container-fluid menuitem">
                 <a class="navbar-brand" href="#">Contact</a>
@@ -48,31 +48,30 @@
             </div>
         </div>
         <div class="container">  
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-4 about-content">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-12 col-lg-8 about-content">
                     <h2>
-                    Everybodys Welcome!
+                    Why us?
                     </h2>
                     <p>
-                    We welcome everyone regardless of gender, sexuality,
-                    size, age, ethnicity or ability. Our gyms are friendly, 
-                    supportive and judgement free spaces where everybody 
-                    can come in, work out and leave feeling good.
+                        At FreeStlye Gym, you'll find everything you need for a safe and 
+                        great workout – you can train with confidence at the worlds 
+                        favourite gym.
                     </p>
                     </div>
-                    <div class="col-12 col-sm-4 about-image">
+                    <div class="col-12 col-md-12 col-lg-4 about-image">
                     <img src="assets/images/gym2.jpg" alt="man deadlifting">
                 </div>
             </div>
         </div>
         <div class="container">  
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-6 ">
-                    <img src="assets/images/gym3.jpg" alt="man deadlifting">
+            <div class="row justify-content-around">
+                <div class="col-12 col-sm-12 col-md-4 about-image2">
+                    <img src="assets/images/gym3.jpg" alt="man rowing">
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-12 col-md-8 about-content2">
                     <h2>
-                    Everybodys Welcome!
+                    Everybody's Welcome!
                     </h2>
                     <p>
                     We welcome everyone regardless of gender, sexuality,
@@ -84,5 +83,53 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="row">
+            <div class="col-12 classes" id="classes">
+                <h1>
+                    Classes!
+                </h1>
+            </div>
+            <div class="col-12 col-sm-6 cardio-class .bg-cardio-class">
+                <h2>
+                    Cardio
+                </h2>
+                <p>
+                    Get fitter and burn calories! These classes are
+                    for anyone who love music and energy!
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 sculpt-class .bg-sculpt-class">
+                <h2>
+                    Sculpt and Tone
+                </h2>
+                <p>
+                    Change the shape of your body by 
+                    strengthening and conditioning your
+                    muscles.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 mind-class .bg-mind-class">
+                <h2>
+                    Mind & Body
+                </h2>
+                <p>
+                    All rounder classes for well being, core, 
+                    strength, flexibility and low impact conditioning.
+                </p>
+            </div>
+            <div class="col-12 col-sm-6 func-class .bg-func-class">
+                <h2>
+                    Functional
+                </h2>
+                <p>
+                    Feel stronger and fitter using functional kit such as 
+                    battle ropes, assualt bikes and kettlebells.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
 </body>
 </html>

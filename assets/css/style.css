@@ -24,6 +24,21 @@ body {
     width: 100% auto;
 }
 
+.bg-cardio-class {
+    background-color: #98C1D9;
+}
+
+.bg-sculpt-class {
+
+}
+
+.bg-mind-class {
+
+}
+
+.bg-func-class {
+
+}
 
 /* ------------------- Heading */
 
@@ -101,7 +116,7 @@ body {
 .box-background {
     background-color: rgba(0,0,0,0.5);
     width: 55%;
-    margin-left: 20%;
+    margin-left: 25%;
     border-radius: 10px;
 }
 
@@ -118,8 +133,12 @@ body {
 }
 
 .about-content {
-    margin-top: 25px;
+    margin-top: 40px;
+    text-align: center;
+    width: 300px;
+    padding-left: 20px;
 }
+
 
 .about-content h1 {
     margin-left: 20%;
@@ -127,10 +146,69 @@ body {
 
 .about-content p {
     margin-top: 10px;
-    font-size: ;
+}
+.about-image {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.about-image {
-    padding-left: 10%;
+.about-content2 {
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+    padding-left: 25px;
+    float: left;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+.about-content2 p {
+    margin-top: 10px;
+}
+
+.about-image2 {
     margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 990px) { 
+.about-image2 {
+    display: none;
+}
+}
+
+/* ------------------- Classes */
+
+.classes {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+}
+
+.cardio-class {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cardio-class p {
+    margin-top: 10px;
+}
+
+.sculpt-class {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sculpt-class p {
+    margin-top: 10px;
+}
+
+.mind-class {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.func-class {
+    text-align: center;
+    margin-top: 50px;
 }
