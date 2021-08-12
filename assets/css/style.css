@@ -44,6 +44,10 @@ body {
     background-color: #293241;
 }
 
+.bg-contact-us {
+    background-color: #272525;
+}
+
 /* ------------------- Heading */
 
 .mainheading {
@@ -312,4 +316,34 @@ body {
     padding-bottom: 20px;
 }
 
+/* ------------------- Contact Us */
 
+.contact-us {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-us h1 {
+    color: #fafafa;
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.contact-us p {
+    color: #fafafa;
+}
+
+.contact-address {
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.contact-num {
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
