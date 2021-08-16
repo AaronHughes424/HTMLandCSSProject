@@ -160,6 +160,7 @@ body {
 .about-image {
     text-align: center;
     margin-top: 20px;
+    padding: 0;
 }
 
 .about-content2 {
@@ -346,4 +347,39 @@ body {
     text-align: center;
     width: 100%;
     padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* ------------------- footer */
+
+.footer {
+
+}
+
+.copyright {
+    text-align: center;
+    background-color: #272525;
+    color: #fafafa;
+    padding-top: 10px;
+}
+
+.footer-logo {
+    text-align: center;
+    background-color: #272525;
+    color: #fafafa;
+    padding-top: 10px;
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+}
+
+.socials {
+    text-align: center;
+    color: inherit;
+    background-color: #272525;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.socials i {
+    text-decoration: none;
 }
