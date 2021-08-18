@@ -21,7 +21,7 @@ body {
 
 .bg-navbar-color {
     background-color: #272525;
-    width: 100% auto;
+    width: 100%;
 }
 
 .bg-classes {
@@ -67,6 +67,7 @@ body {
     margin: 0;
     width: 100%;
     padding-bottom: 20px;
+
 }
 
 #nav li {
@@ -102,7 +103,6 @@ body {
 }
 
 .callout-content {
-    display: relative;
     text-align: center;
     height: 50%;
     padding-top: 30%;
@@ -111,7 +111,6 @@ body {
 
 @media (min-width:991px){
 .callout-content {
-    display: relative;
     text-align: center;
     height: 50%;
     padding-top: 15%;
