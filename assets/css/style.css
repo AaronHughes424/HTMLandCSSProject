@@ -352,15 +352,14 @@ body {
 
 /* ------------------- footer */
 
-.footer {
-
-}
-
 .copyright {
     text-align: center;
     background-color: #272525;
     color: #fafafa;
     padding-top: 10px;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 0;
 }
 
 .footer-logo {
@@ -382,4 +381,17 @@ body {
 
 .socials i {
     text-decoration: none;
+}
+
+.menuitem a:hover {
+    text-decoration: underline;
+}
+
+.socials a {
+    color: white !important;
+}
+
+a.btn-light {
+    color: black;
+    width: auto;
 }

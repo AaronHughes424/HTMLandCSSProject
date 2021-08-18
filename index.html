@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/436d2f19ad.js" crossorigin="anonymous"></script>
-    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>FreeStyle Gym</title>
 </head>
@@ -23,14 +25,15 @@
             <div class="col-4 col-sm-4 container-fluid menuitem">
               <a class="navbar-brand" href="#classes">Classes</a>
             </div>
-            <div class="col-4 col-sm-4 container-fluid menuitem">
-                <a class="navbar-brand" href="#signup"><input type="submit" class="btn btn-light" value="SIGN UP!"></a>
+            <div class="col-4 col-sm-4 container-fluid justify-content-center menuitem">
+                <a class="navbar-brand btn btn-light animate__animated" href="#signup" id="sign_up">
+                    SIGN UP!
+                </a>
             </div>
             <div class="col-4 col-sm-4 container-fluid menuitem">
                 <a class="navbar-brand" href="#contact">Contact</a>
             </div>
           </nav>
-        </div>
     </header>
     <div class="callout">
         <div class="row">
@@ -132,11 +135,12 @@
     </section>
     <section>
         <div class="row">
-            <div class="col-12 sign-heading" id="signup">
-                <h1>Interested?</h1>
-                <h2>Want to become a member? Sign Up Below!</h2>
-            </div>
-            <div class="col-12 form">
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <div class="col-12 sign-heading" id="signup">
+                    <h1>Interested?</h1>
+                    <h2>Want to become a member? Sign Up Below!</h2>
+                </div>
+                <div class="col-12 form">
                 <div class="fname-form">
                     <label for="fname" action="post">First Name:</label>
                     <input type="text" name="fname" id="fname" placeholder="First Name" required>
@@ -152,7 +156,8 @@
                 <div class="form-button">
                     <input type="submit" class="btn btn-light" value="Sign Up!">
                 </div>
-            </div>
+                </div>
+            </form>
         </div>
     </section>
     <section>
@@ -182,17 +187,25 @@
     <footer>
         <div class="row footer">
                 <div class="col-4 copyright">
-                    <h6>Copyright © 2021 FreeStyle Gym</h6>
+                    <p>Copyright © 2021 FreeStyle Gym</p>
                 </div>
                 <div class="col-4 footer-logo">
                     <h4>FreeStlye Gym</h4>
                 </div>
                 <div class="col-4 socials light">
-                    <a target="_blank" href="#"><i class="fab fa-facebook"></i></a>
-                    <a target="_blank" href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a target="_blank" href="#"><i class="fab fa-instagram-square"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
                 </div>
         </div>
     </footer>
+    <script>
+        var button = document.getElementById('sign_up').addEventListener('mouseover', function(event){
+            event.target.classList.add('animate__bounce');
+            setTimeout(function(){
+                document.getElementById('sign_up').classList.remove('animate__bounce');
+            }, 1000);
+        }); 
+    </script>
 </body>
 </html>
