@@ -70,7 +70,7 @@
 
 ## Testing
 
-#### First Time Visitor Goals
+-   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
