@@ -35,7 +35,7 @@
 
 *   ### Wireframes
 
-    -   Wireframe - [View](https://github.com/AaronHughes424/HTMLandCSSProject/blob/main/assets/wireframes/Wireframe%20for%20MSP1.bmpr)
+    -   Wireframe - [View]()
 
 
 ## Features
